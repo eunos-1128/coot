@@ -6,9 +6,10 @@ ingredients:
     - coot
     - coot-data
     - libcootapi1.1
+    - libselinux1
   dist: unstable
   sources:
-    - deb http://deb.debian.org/debian unstable main
+    - deb http://deb.debian.org/debian unstable main contrib non-free
 
 script:
   - sed -i 's|^Exec=.*|Exec=env LD_LIBRARY_PATH=\\${APPDIR}/usr/lib/x86_64-linux-gnu:\\${LD_LIBRARY_PATH} coot|' coot.desktop
