@@ -1,0 +1,188 @@
+Fri Jun  6 06:52:18 PM UTC 2025
+currently architecture is x86_64
+here 2222 with dist_name ubuntu
+here 2222 with dist_ver "22.04"
+this fallback case............
+dist_name ubuntu
+systype x86_64-ubuntu-22.04.5
+systype: x86_64-ubuntu-22.04.5
+update_libtool: 1
+update_config_guess_sub: 1
+patch
+system has patch
+m4
+system has m4
+g++
+system has g++
+git
+system has git
+libtool
+system has libtool
+cmake
+system has cmake
+swig
+system has swig
+flex
+system has flex
+bison
+system has bison
+gfortran
+system has gfortran
+autoconf
+system has autoconf
+automake
+system has automake
+libssl-dev
+system has libssl-dev
+libblas-dev
+system has libblas-dev
+liblapack-dev
+system has liblapack-dev
+libc6-dev
+system has libc6-dev
+libncurses-dev
+system has libncurses-dev
+libjpeg-dev
+system has libjpeg-dev
+libgtk-4-dev
+system has libgtk-4-dev
+nn ============================================ start ============================
+INFO:: MACHTYPE is x86_64-pc-linux-gnu
+INFO:: systype is x86_64-ubuntu-22.04.5
+g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+gcc version: gcc-11
+need_guile_unused_values_patch is
+Testing version of make
+GNU Make 4.3
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+using 4 processors in compilation
+MAKE set to make -j4
+number of processors for compiling: 4
+testing for patch
+testing awk type (prefer GNU awk)
+GNU Awk 5.1.0, API: 3.0 (GNU MPFR 4.1.0, GNU MP 6.2.1)
+Copyright (C) 1989, 1991-2020 Free Software Foundation.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see http://www.gnu.org/licenses/.
+good, you have an awk from GNU.
+cmake version 3.22.1 CMake suite maintained and supported by Kitware (kitware.com/cmake).
+found recent cmake
+cmake_is_good: true
+cmake passes
+start_dir /workspaces/coot
+Date: 2025-06-06__T18_52_18
+pkg-config is /usr/bin/pkg-config
+pkg-config is new enough 0.29.2
+checking wget
+which wget
+/usr/bin/wget
+pre_release_files_html /home/vscode/autobuild/building/sources/index-pre-release.html
+coot_version_tmp : :
+clever coot_version extraction failed, using default.
+debug:: wget -nv -P /home/vscode/autobuild/building/sources -O /home/vscode/autobuild/building/sources/index.html -o /home/vscode/autobuild/building/sources/wget-e.s.p.log http://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/source/pre-releases/
+INFO:: building pre-release and coot_version_pre is
+trying to build pre-release coot, but failed to find pre-release version
+make a stable release then
+examining release server files /home/vscode/autobuild/building/sources/index.html
+coot_version
+INFO:: binary tar destination dir: BINARY_TAR_DEST_DIR is /home/vscode/public_html/software/binaries/stable
+INFO:: coot_version_pre is
+INFO:: build_coot_prerelease is
+INFO:: release_server_dir is http://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/source/releases
+INFO:: coot_version is
+INFO:: build_type is
+python_libs is LIBS=-L/home/vscode/autobuild/Linux-codespaces-1388f7/lib64
+install_top_dir /home/vscode/autobuild/Linux-codespaces-1388f7
+HERE A ppppppppppppppp with PKG_CONFIG_PATH
+HERE A ppppppppppppppp with gtk
+HERE A ppppppppppppppp with os_arch x86_64-linux-gnu
+HERE Z ppppppppppppppp with PKG_CONFIG_PATH /home/vscode/autobuild/Linux-codespaces-1388f7/lib64/pkgconfig:/home/vscode/autobuild/Linux-codespaces-1388f7/lib/pkgconfig:/home/vscode/autobuild/Linux-codespaces-1388f7/lib/x86_64-linux-gnu/pkgconfig:/lib/pkgconfig
+COOT_CCP4_PACKAGES 
+PKG_CONFIG_PATH is now /home/vscode/autobuild/Linux-codespaces-1388f7/lib64/pkgconfig:/home/vscode/autobuild/Linux-codespaces-1388f7/lib/pkgconfig:/home/vscode/autobuild/Linux-codespaces-1388f7/lib/x86_64-linux-gnu/pkgconfig:/lib/pkgconfig
+system/installation has freetype2
+/usr/bin/swig
+swig found
+testing for install_top_dir: /home/vscode/autobuild/Linux-codespaces-1388f7
+INFO:: /home/vscode/autobuild/Linux-codespaces-1388f7 exists already.
+done testing for /home/vscode/autobuild/Linux-codespaces-1388f7
+ccp4_system_type linux
+installation has fftw
+installation has curl/libcurl
+installation has libidn2 devel
+libtool test: looking for /home/vscode/autobuild/Linux-codespaces-1388f7/include/ltdl.h
+installation has libtool
+/home/vscode/autobuild/Linux-codespaces-1388f7/bin/gsl-config --prefix
+/home/vscode/autobuild/Linux-codespaces-1388f7
+/home/vscode/autobuild/Linux-codespaces-1388f7
+installation has the GSL version 2.7
+GSL is up to date
+SSM is found.
+INFO:: shall we build clipper: mmdb not to be built
+INFO:: shall we build clipper: fftw not to be built
+Python 3.11.11
+found version of Python Python 3.11.11
+we have python3.11 with working ctypes
+BUILDING libccp4: 8.0.0
+not building mmdb:
+not building ssm:
+not building fftw:
+not building clipper:
+BUILDING gemmi from git repo (and installing GEMMI)
+start_dir is /workspaces/coot
+gemmi needs rebuild: false
+done gemmi
+not building readline:
+installation has libffi
+post libffi with LD_LIBRARY_PATH /home/vscode/autobuild/Linux-codespaces-1388f7/lib
+================= here with build_libffi true
+gettext: this is Linux, not Darwin
+not building python
+['ARRAY', 'ArgumentError', 'Array', 'BigEndianStructure', 'BigEndianUnion', 'CDLL', 'CFUNCTYPE', 'DEFAULT_MODE', 'LibraryLoader', 'LittleEndianStructure', 'LittleEndianUnion', 'POINTER', 'PYFUNCTYPE', 'PyDLL', 'RTLD_GLOBAL', 'RTLD_LOCAL', 'SetPointerType', 'Structure', 'Union', '_CFuncPtr', '_FUNCFLAG_CDECL', '_FUNCFLAG_PYTHONAPI', '_FUNCFLAG_USE_ERRNO', '_FUNCFLAG_USE_LASTERROR', '_Pointer', '_SimpleCData', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '__version__', '_c_functype_cache', '_calcsize', '_cast', '_cast_addr', '_check_size', '_ctypes_version', '_dlopen', '_endian', '_memmove_addr', '_memset_addr', '_os', '_pointer_type_cache', '_reset_cache', '_string_at', '_string_at_addr', '_sys', '_types', '_wstring_at', '_wstring_at_addr', 'addressof', 'alignment', 'byref', 'c_bool', 'c_buffer', 'c_byte', 'c_char', 'c_char_p', 'c_double', 'c_float', 'c_int', 'c_int16', 'c_int32', 'c_int64', 'c_int8', 'c_long', 'c_longdouble', 'c_longlong', 'c_short', 'c_size_t', 'c_ssize_t', 'c_ubyte', 'c_uint', 'c_uint16', 'c_uint32', 'c_uint64', 'c_uint8', 'c_ulong', 'c_ulonglong', 'c_ushort', 'c_void_p', 'c_voidp', 'c_wchar', 'c_wchar_p', 'cast', 'cdll', 'create_string_buffer', 'create_unicode_buffer', 'get_errno', 'memmove', 'memset', 'pointer', 'py_object', 'pydll', 'pythonapi', 'resize', 'set_errno', 'sizeof', 'string_at', 'wstring_at']
+Good Python
+/home/vscode/autobuild/Linux-codespaces-1388f7/bin/meson
+meson --version
+1.7.0
+we have meson
+not building meson:
+installation has pixman
+not building libtool:
+not building libidn2:
+libunistring skip_this true
+not building libunistring
+not building curl:
+not building gsl:
+not building glm
+debug:: build_numpy was
+command -v pip3
+/home/vscode/autobuild/Linux-codespaces-1388f7/bin/pip3
+pip3 install --upgrade pip
+Requirement already satisfied: pip in /home/vscode/autobuild/Linux-codespaces-1388f7/lib/python3.11/site-packages (25.1.1)
+pip3 install cython
+Requirement already satisfied: cython in /home/vscode/autobuild/Linux-codespaces-1388f7/lib/python3.11/site-packages (3.1.1)
+numpy is found, skip
+not building boost
+libboost_python /home/vscode/autobuild/Linux-codespaces-1388f7/lib/libboost_python311.a was installed
+eigen3 is installed
+Catch2 is installed
+OK, Catch2 is installed
+not building rdkit:
+done CHAPI_ONLY
